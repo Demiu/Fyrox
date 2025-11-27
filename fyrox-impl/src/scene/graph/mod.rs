@@ -133,7 +133,7 @@ pub struct Graph {
     #[reflect(hidden)]
     root: Handle<Node>,
 
-    pool: NodePool,
+    pub pool: NodePool,
 
     #[reflect(hidden)]
     stack: Vec<Handle<Node>>,
